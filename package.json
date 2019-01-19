@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "description": "robertfeng first exciting chaincode implemented in node.js",
   "engines": {
-    "node": ">=8.4.0",
-    "npm": ">=5.3.0"
+    "node": "~8.4.0",
+    "npm": "~5.3.0"
   },
   "scripts": { "start" : "node fbccnodestudy.js" },
   "engine-strict": true,

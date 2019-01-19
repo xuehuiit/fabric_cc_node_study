@@ -63,7 +63,7 @@ var Fabriccc = class {
      * @param args
      * @returns {Promise<void>}
      */
-    async get( stu,args ){
+    async get( stub,args ){
 
 
         if (args.length != 3) {
@@ -79,7 +79,7 @@ var Fabriccc = class {
         console.log(`parm is ${parm_a}   ${parm_b}  ${parm_c} `);
 
         //返回值是byte数组
-        let result = await stub.getState(A);
+        let result = await stub.getState(parm_a);
         if (!result) {
             throw new Error('Failed to get state of asset holder A');
         }
@@ -96,7 +96,7 @@ var Fabriccc = class {
      * @param args
      * @returns {Promise<void>}
      */
-    async set( stu,args ){
+    async set( stub,args ){
 
 
         if (args.length != 3) {
@@ -111,7 +111,7 @@ var Fabriccc = class {
         console.log(`========  curr method is get   ==========`);
         console.log(`parm is ${parm_a}   ${parm_b}  ${parm_c} `);
 
-        await stub.putState(parm_b, Buffer.from(parm_c));
+        await stub.putState(parm_a, Buffer.from(parm_b));
 
 
 
@@ -123,7 +123,7 @@ var Fabriccc = class {
      * @param args
      * @returns {Promise<void>}
      */
-    async delete( stu,args ){
+    async delete( stub,args ){
 
         if (args.length != 3) {
             throw new Error('Incorrect number of arguments. Expecting 3');

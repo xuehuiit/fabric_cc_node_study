@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="68752e7b-6a03-4965-a072-34bb44c2c01a" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/fbccnodestudy.js" />
+      <change beforePath="$PROJECT_DIR$/fbccnodestudy.js" afterPath="$PROJECT_DIR$/fbccnodestudy.js" />
+      <change beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -19,7 +17,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="package.json" pinned="false" current-in-tab="true">
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="225">
@@ -29,13 +27,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="fbccnodestudy.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="fbccnodestudy.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/fbccnodestudy.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="246">
-              <caret line="35" column="0" lean-forward="true" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+            <state relative-caret-position="336">
+              <caret line="46" column="0" lean-forward="true" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
               <folding>
-                <marker date="1547914777365" expanded="true" signature="148:4876" ph="{...}" />
+                <marker date="1547916442622" expanded="true" signature="148:4884" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -133,7 +131,7 @@
   <component name="RunManager">
     <configuration name="fbccnodestudy.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" application-parameters="--peer.address grpc://10.211.55.5:7052" path-to-js-file="fbccnodestudy.js" working-dir="$PROJECT_DIR$">
       <envs>
-        <env name="CORE_CHAINCODE_ID_NAME" value="fb14_cc_study:1.6" />
+        <env name="CORE_CHAINCODE_ID_NAME" value="fb14_cc_nodd_study:1.0" />
         <env name="CORE_PEER_ADDRESS" value="10.211.55.5:7051" />
         <env name="CORE_CHAINCODE_LOGGING_LEVEL" value="debug" />
         <env name="CORE_CHAINCODE_LOGGING_SHIM" value="debug" />
@@ -158,12 +156,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1547822466559</updated>
-      <workItem from="1547822469298" duration="3929000" />
+      <workItem from="1547822469298" duration="5699000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3929000" />
+    <option name="totallyTimeSpent" value="5699000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1718" y="111" width="1440" height="877" extended-state="0" />
@@ -199,21 +197,21 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/fbccnodestudy.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="35" column="0" lean-forward="true" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
-          <folding>
-            <marker date="1547914777365" expanded="true" signature="148:4876" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fbccnodestudy.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="46" column="0" lean-forward="true" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+          <folding>
+            <marker date="1547916442622" expanded="true" signature="148:4884" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
