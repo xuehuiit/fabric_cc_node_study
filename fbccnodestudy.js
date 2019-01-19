@@ -25,7 +25,7 @@ var Fabriccc = class {
     async Init(stub) {
 
         console.log(` success init  node.js cc`)
-        shim.success();
+        return shim.success();
 
     }
 
