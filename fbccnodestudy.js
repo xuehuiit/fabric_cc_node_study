@@ -22,11 +22,25 @@ var Fabriccc = class {
      的时候会调用该方法
 
      */
+
     async Init(stub) {
 
-        console.log(` success init  node.js cc`)
-        return shim.success();
+        console.info('========= Fabriccc Init =========');
+        let ret = stub.getFunctionAndParameters();
+        console.info(ret);
+        let args = ret.params;
 
+        try {
+
+            try {
+
+                return shim.success();
+            } catch (err) {
+                return shim.error(err);
+            }
+        } catch (err) {
+            return shim.error(err);
+        }
     }
 
 
